@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>TradeWise - Unlock Your Trading Potential</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+  <link
+    rel="stylesheet"
+    as="style"
+    onload="this.rel='stylesheet'"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&family=Noto+Sans:wght@400;500;700;900&display=swap"
+  />
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <style>
+    body {
+      font-family: 'Inter', 'Noto Sans', sans-serif;
+      background-color: #f9fafb; /* softer than gray-50 */
+    }
+    /* Button */
+    .btn-primary {
+      background-color: #3b82f6; /* Tailwind blue-500 */
+      color: white;
+      font-weight: 700;
+      border-radius: 0.75rem; /* rounded-xl */
+      padding: 0.75rem 1.25rem;
+      transition: background-color 0.3s ease;
+      box-shadow: 0 4px 8px rgb(59 130 246 / 0.3);
+    }
+    .btn-primary:hover,
+    .btn-primary:focus {
+      background-color: #2563eb; /* Tailwind blue-600 */
+      box-shadow: 0 6px 12px rgb(37 99 235 / 0.4);
+      outline: none;
+    }
+    /* Heading improvements */
+    h1, h2 {
+      line-height: 1.2;
+    }
+    /* Text shadow on hero */
+    .hero-text-shadow {
+      text-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+    }
+    /* Container padding */
+    @media (max-width: 480px) {
+      .px-40 {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div
+    class="relative flex min-h-screen flex-col bg-gray-50 overflow-x-hidden"
+    style='font-family: Inter, "Noto Sans", sans-serif;'
+  >
+    <div class="flex h-full grow flex-col">
+      <header
+        class="flex items-center justify-between border-b border-solid border-b-[#eaedf1] px-10 py-4 bg-white"
+      >
+        <div class="flex items-center gap-4 text-[#101418]">
+          <div class="w-6 h-6">
+            <svg
+              viewBox="0 0 48 48"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+              focusable="false"
+            >
+              <path d="M44 4H30.6666V17.3334H17.3334V30.6666H4V44H44V4Z" />
+            </svg>
+          </div>
+          <h2 class="text-[#101418] text-lg font-bold tracking-tight leading-tight">
+            TradeWise
+          </h2>
+        </div>
+      </header>
+      <div class="px-40 flex flex-1 justify-center py-10 max-w-screen-xl mx-auto w-full">
+        <div class="flex flex-col max-w-3xl flex-1 gap-10">
+          <!-- Hero Section -->
+          <section
+            class="flex min-h-[480px] flex-col gap-6 rounded-xl bg-cover bg-center bg-no-repeat p-6 md:p-12"
+            style="
+              background-image: linear-gradient(
+                  rgba(0, 0, 0, 0.15),
+                  rgba(0, 0, 0, 0.5)
+                ),
+                url('https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&w=1470&q=80');
+            "
+          >
+            <div class="text-center text-white">
+              <h1
+                class="text-4xl md:text-5xl font-extrabold hero-text-shadow tracking-tight leading-tight max-w-lg mx-auto"
+              >
+                Unlock Your Trading Potential
+              </h1>
+              <p
+                class="mt-4 text-base md:text-lg font-normal hero-text-shadow max-w-xl mx-auto"
+              >
+                Learn the strategies and techniques to navigate the financial
+                markets with confidence. Our comprehensive trading course is
+                designed to equip you with the knowledge and skills needed to
+                succeed.
+              </p>
+            </div>
+            <div class="mt-auto flex justify-center">
+            <form action="PaymentMethod.html" method="GET">
+              <!-- any hidden inputs or user info here -->
+
+              <button
+                class="btn-primary max-w-xs w-full"
+                type="submit"
+              >
+                Get Started
+              </button>
+            </form>
+            </div>
+          </section>
+
+          <!-- Course Objectives -->
+          <section>
+            <h2
+              class="text-[#101418] text-2xl md:text-[22px] font-bold leading-tight tracking-tight mb-3"
+            >
+              Course Objectives
+            </h2>
+            <p class="text-[#101418] text-base font-normal leading-relaxed">
+              This course aims to provide a solid foundation in trading, covering essential topics such as market analysis, risk management, and trading psychology. By
+              the end of this course, you will be able to develop and implement your own trading strategies.
+            </p>
+          </section>
+
+          <!-- Course Content -->
+          <section>
+            <h2
+              class="text-[#101418] text-2xl md:text-[22px] font-bold leading-tight tracking-tight mb-3"
+            >
+              Course Content
+            </h2>
+            <p class="text-[#101418] text-base font-normal leading-relaxed">
+              Our course is structured into modules, each focusing on a specific aspect of trading. Modules include: Introduction to Trading, Technical Analysis, Fundamental Analysis, Risk Management, Trading Psychology, and Advanced Trading Strategies.
+            </p>
+          </section>
+
+          <!-- Call to Action Button -->
+          <div class="flex justify-center">
+            <form action="PaymentMethod.html" method="GET">
+             <!-- any hidden inputs or user info here -->
+
+             <button
+               class="btn-primary max-w-xs w-full"
+               type="submit"
+             >
+               Get Started
+             </button>
+           </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
